@@ -1,18 +1,9 @@
-## Getting Started
+📚 Data Structures and Algorithms
+A collection of exercises and practice materials for the Data Structures and Algorithms (DSA) course at UET–VNU.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This repository includes:
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Practice problems based on course handouts
+Implementations of fundamental data structures
+Algorithm exercises and problem-solving notes
+Java practice and complexity analysis
