@@ -6,4 +6,4 @@ This repository includes:
 - Practice problems based on course handouts
 - Implementations of fundamental data structures
 - Algorithm exercises and problem-solving notes
-- C++ practice and complexity analysis
+- Java practice and complexity analysis
