@@ -1,0 +1,6 @@
+cấu trúc parent-link
+0 1 2 3 4 5 6 7 8 9
+5 6 0 4 0 5 0 5 6 7
+
+không thể là weighted quick union
+vì có gốc lớn gắn vào gốc bé gốc 0 với size = 7 gắn và gốc 5 size = 3

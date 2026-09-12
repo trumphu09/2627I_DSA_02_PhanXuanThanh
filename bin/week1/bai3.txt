@@ -1,0 +1,8 @@
+(0,4): được vì trước khi union(0,4) thì chúng là 2 cây và được nối với nhau ở 2 gốc
+(4,0): thì k được vì sẽ nối vào gốc 0
+(5,0): được vì trước đó sẽ là 2 cây với gốc 0 và gốc 4 -> sau khi nối 5,0 thì nối gốc chúng 
+(5,7): tương tự 5,0
+(2,3): không được vì nối 3 vào gốc 4 
+(6,4): nối thẳng 6 vào gốc 4
+(4,5): nối thẳng 5 vào gốc 4
+(8,9): nối thẳng 9 vào gốc 8
