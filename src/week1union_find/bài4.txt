@@ -1,0 +1,11 @@
+cấu trúc thể hiện parent-link
+0 0 0 0 4 4 4 5 ? 8 (parent)
+0 1 2 3 4 5 6 7 8 9
+
+0 gốc nối với 1 2 3
+4 gốc nối với 5 6
+5 nối với 7
+8 gốc nối với 9
+
+từ đây có thể thấy cây gốc 8 đã có size là 2 nên chỉ nối được vào gốc 0 hoặc 4 và chính nó 
+nếu nối các vị trí khác thì sẽ phá vỡ weighted quick union

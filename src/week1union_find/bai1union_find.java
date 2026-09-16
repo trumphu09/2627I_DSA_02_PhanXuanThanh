@@ -1,9 +1,9 @@
-package week1;
+package week1union_find;
 import edu.princeton.cs.algs4.StdOut;
-public class union_findbai1 {
+public class bai1union_find {
     private int[] id; // Mảng lưu nhãn định danh của mỗi phần tử
 
-    public union_findbai1(int n) {
+    public bai1union_find(int n) {
         id = new int[n];
         for (int i = 0; i < n; i++) {
             id[i] = i; // Ban đầu mỗi phần tử tự làm sếp của chính nó
@@ -27,7 +27,7 @@ public class union_findbai1 {
         }
     }
     public static void main(String[] args) {
-        union_findbai1 uf = new union_findbai1(10);
+        bai1union_find uf = new bai1union_find(10);
         uf.union(1, 2);
         uf.union(1, 3);
         StdOut.println(uf.connected(1, 3)); // true
