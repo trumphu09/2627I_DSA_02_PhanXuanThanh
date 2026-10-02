@@ -1,0 +1,7 @@
+Để mảng $N$ phần tử thỏa mãn điều kiện **số lần kiểm tra `a[j] < a[min]` ra giá trị `false` (và vì thế cập nhật giá trị `min`) là tối đa**, mảng đó phải được sắp xếp theo **thứ tự giảm dần** (descending order).
+
+**Giải thích chi tiết:**
+
+* Thuật toán selection sort duyệt tìm phần tử nhỏ nhất bằng cách so sánh phần tử hiện tại `a[j]` với phần tử đang được lưu là nhỏ nhất `a[min]`.
+* Nếu mảng đã được **sắp xếp giảm dần** (phần tử đứng trước lớn hơn phần tử đứng sau, ví dụ: `[5, 4, 3, 2, 1]`), thì khi vòng lặp `j` quét qua các phần tử phía sau, nó liên tục gặp các giá trị nhỏ hơn hẳn giá trị `min` hiện tại.
+* Do đó, điều kiện `a[j] < a[min]` sẽ liên tục đúng và câu lệnh cập nhật `min = j` (và vì thế cập nhật lại giá trị `min`) được kích hoạt **nhiều lần nhất có thể** trong suốt quá trình chạy.

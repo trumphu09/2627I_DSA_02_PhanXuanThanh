@@ -1,0 +1,6 @@
+Trong thuật toán **selection sort**, mỗi phần tử bất kì chỉ cần tối đa **01 lần đổi chỗ** (hoặc nói cách khác là đúng 1 lần đổi chỗ khi tìm thấy phần tử nhỏ hơn và đưa nó về đúng vị trí đầu đoạn chưa sắp xếp).
+
+Còn về số lần đổi chỗ **trung bình** cho một phần tử (hoặc tổng số lần đổi chỗ trong toàn bộ mảng kích thước $N$):
+
+* Thuật toán selection sort thực hiện đúng **$N$ lần đổi chỗ** (swaps) qua $N$ vòng lặp (mỗi vòng lặp thực hiện tối đa 1 lần đổi chỗ phần tử nhỏ nhất tìm được về vị trí của nó).
+* Do đó, trung bình mỗi phần tử trải qua **1 lần đổi chỗ** trong suốt quá trình chạy thuật toán.
